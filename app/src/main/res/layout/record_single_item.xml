@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewSabaq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sabaq"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layoutPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewParaLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Para No:"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewParaNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutSurah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewSurahName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Surah Name:"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewStartingVerse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Starting Verse:"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewEndingVerse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ending Verse:"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewSabqi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sabqi"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layoutSabqiPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewSabqiParaLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Para No:"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewSabqiParaNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewManzil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manzil"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layoutManzilPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewManzilParaLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Para No:"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewManzilParaNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+</LinearLayout>
