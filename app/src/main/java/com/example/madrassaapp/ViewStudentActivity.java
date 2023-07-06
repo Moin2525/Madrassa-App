@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.madrassaapplication.R.id;
+import com.example.madrassaapp.R.id;
 
 import java.util.ArrayList;
 import java.util.Arrays;

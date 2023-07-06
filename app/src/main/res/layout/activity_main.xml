@@ -25,7 +25,7 @@
         <Button
             android:id="@+id/githuBtn"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:backgroundTint="#9C27B0"
             android:text="github" />
     </LinearLayout>

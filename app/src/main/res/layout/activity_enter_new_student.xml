@@ -11,12 +11,11 @@
     <EditText
         android:id="@+id/studentNameTextField"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginTop="128dp"
         android:ems="10"
-        android:hint="Enter Name"
+        android:hint="Name"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,7 +24,7 @@
     <EditText
         android:id="@+id/classTextField"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginTop="28dp"
         android:ems="10"
         android:hint="Class"
@@ -38,11 +37,12 @@
     <EditText
         android:id="@+id/AgeTextField"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginTop="28dp"
         android:ems="10"
         android:hint="Age"
         android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/classTextField"
         app:layout_constraintStart_toStartOf="@+id/classTextField"
         app:layout_constraintTop_toBottomOf="@+id/classTextField" />
 
@@ -62,7 +62,7 @@
     <Button
         android:id="@+id/saveBtn"
         android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:layout_height="58dp"
         android:layout_marginTop="32dp"
         android:backgroundTint="#008805"
         android:text="Save"
@@ -74,7 +74,7 @@
     <Button
         android:id="@+id/cancelBtn"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="20dp"
         android:backgroundTint="#C10000"
         android:text="cancel"

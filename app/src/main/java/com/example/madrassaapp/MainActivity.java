@@ -11,12 +11,11 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     Button github, gotoApp;
-    final private String linkToRepo ="https://github.com/AsadNazir/Madrassa_Application";
+    final private String linkToRepo ="https://github.com/Moin2525/Madrassa-App";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         github = findViewById(R.id.githuBtn);
         gotoApp = findViewById(R.id.gototBtn);
